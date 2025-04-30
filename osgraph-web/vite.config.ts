@@ -25,7 +25,7 @@ export default defineConfig({
             assetInfo.type === "asset" &&
             /\.(jpe?g|png|gif|svg)$/i.test(assetInfo.name!)
           ) {
-            return "static/img/[name].[hash][ext]";
+            return "static/img/[name].[ext]";
           }
           if (
             assetInfo.type === "asset" &&

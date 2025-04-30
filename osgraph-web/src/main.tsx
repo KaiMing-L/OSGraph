@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import "./i18n";
 import router from "./router";
+import './assets/logo.png';
+import './assets/logo-icon.svg'
+
 
 window?.Tracert?.call("set", {
   spmAPos: "a4378",
